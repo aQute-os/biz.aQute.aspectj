@@ -1,0 +1,11 @@
+-plugin: \
+	aQute.bnd.repository.maven.provider.MavenBndRepository;\
+		name                =Central;\
+		noupdateOnRelease   =true;\
+		releaseUrl          ='https://repo.maven.apache.org/maven2';\
+		index              = central.mvn,\
+	biz.aQute.aspectj.plugin.AspectExporter
+		
+		
+-pluginpath: \
+	${build}/lib/biz.aQute.bnd.aspectj.plugin.jar

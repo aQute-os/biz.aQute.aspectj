@@ -1,0 +1,14 @@
+Bundle-Activator: exporter.Account
+Bundle-Version: 1.0.0
+
+-export \
+	test.bndrun; \
+		type 			= bnd.executablejar.aspectj; \
+		match			= *; \
+		aspectpath		= aspect
+		
+
+
+-buildpath: \
+	org.osgi.framework, \
+	aspect
